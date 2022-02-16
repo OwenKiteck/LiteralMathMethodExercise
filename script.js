@@ -16,3 +16,21 @@ randomNumber *= 3;
 randomNumber += 1;
 randomNumber = Math.floor(randomNumber);
 console.log(randomNumber);
+
+console.log("let It Go! ".toUpperCase().repeat(2).trim());
+
+let reindeers = "Reindeers are better than people."
+
+console.log(reindeers.replace(/ /g, "_"));
+
+console.log(Math.sqrt(2));
+// console.log(Math.SQRT2);
+
+let newRandomNumber = Math.random();
+newRandomNumber *= 17;
+newRandomNumber += 7;
+newRandomNumber = Math.floor(newRandomNumber);
+console.log(newRandomNumber);
+
+let secondRandomNumber = Math.floor(Math.random() * 17 + 7)
+console.log(secondRandomNumber);
